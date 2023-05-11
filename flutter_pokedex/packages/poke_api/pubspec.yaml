@@ -1,0 +1,15 @@
+name: poke_api
+description: Dart package which manages the pokemon data recovery
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  json_annotation: ^4.7.0
+  http: ^0.13.0
+
+dev_dependencies:
+  very_good_analysis: ^3.0.1
+  build_runner: ^2.3.2
+  json_serializable: ^6.5.4

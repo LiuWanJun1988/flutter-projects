@@ -1,0 +1,15 @@
+name: favourite_pokemon_table
+description: A Dart package which manages servicing favourite table
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  sqflite: ^2.2.2
+  pokemon_repository:
+    path: ../pokemon_repository
+
+dev_dependencies:
+  very_good_analysis: ^3.0.2
